@@ -1,73 +1,186 @@
-# Welcome to your Lovable project
+Project Overview
 
-## Project info
+Smart Edu AI is a web-based application designed to help users identify and choose the best e-learning courses across multiple platforms. Many learners face difficulty in deciding which platform offers the most suitable course for a specific topic. This system solves that problem by bringing together course information from platforms like Coursera, Udemy, and Simplilearn into a single interface for easy comparison and decision-making.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Problem Statement
 
-## How can I edit this code?
+There are many e-learning platforms available today, but:
 
-There are several ways of editing your application.
+Course quality varies across platforms
 
-**Use Lovable**
+Pricing differs (free vs paid)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Course content and instructors are not easily comparable
 
-Changes made via Lovable will be committed automatically to this repo.
+Users spend a lot of time switching between platforms
 
-**Use your preferred IDE**
+Smart Edu AI provides a centralized solution to compare and analyze courses efficiently.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Objectives
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To provide a unified platform for course comparison
 
-Follow these steps:
+To help users select the best course based on their needs
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+To integrate AI-based assistance for learning support
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+To enhance user experience with additional features like quizzes and notes
 
-# Step 3: Install the necessary dependencies.
-npm i
+Key Features
+1. Course Search and Aggregation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Users can search for any topic such as DBMS, Python, or Java.
+The system retrieves and displays courses from 10 different e-learning platforms in a horizontal layout.
+
+2. Course Comparison
+
+Users can select 2–3 courses and compare them in a structured table based on:
+
+Course name
+
+Instructor
+
+Free or paid
+
+Number of videos
+
+Topics covered
+
+This helps users make informed decisions.
+
+3. AI Mode
+
+The platform includes an AI-based chat module where users can:
+
+Ask study-related questions
+
+Get concise explanations
+
+Interact through a chat interface
+
+The AI is implemented using rule-based logic and keyword matching.
+
+4. Quiz Generation
+
+Users can generate quizzes for any topic:
+
+Multiple-choice questions
+
+Instant feedback with explanations
+
+Final score dashboard
+
+5. Notes Management
+
+Users can save notes after completing a course
+
+Supports text and voice input (Tamil and English)
+
+Notes are stored with date and course name
+
+Notes can be viewed and downloaded
+
+6. Destiny Checker (Career Guidance)
+
+Users can enter their career goal (e.g., Data Analyst).
+The system suggests:
+
+Required skills
+
+Recommended courses from different platforms
+
+A structured learning path
+
+Technologies Used
+
+Frontend
+
+React
+
+Tailwind CSS
+
+Backend
+
+Node.js
+
+Express.js
+
+Database
+
+SQLite / Local JSON storage
+
+Algorithms Used
+
+Inverted Index for fast course search
+
+TF-IDF for keyword-based matching
+
+Hashing for quick data retrieval
+
+B-Tree indexing for efficient querying
+
+System Architecture
+
+User Interface (React Frontend)
+↓
+Application Logic (Node.js + Express)
+↓
+Local Data Storage (JSON / SQLite)
+
+Project Structure
+smart-edu-ai/
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   └── styles/
+├── backend/
+│   ├── routes/
+│   ├── controllers/
+│   └── data/
+├── package.json
+├── README.md
+Installation and Setup
+
+Clone the repository
+git clone https://github.com/kaviya-sharon14/smart-edu-ai.git
+
+Open the folder in VS Code
+
+Install dependencies
+npm install
+
+Run the project
 npm run dev
-```
+or
+npm start
 
-**Edit a file directly in GitHub**
+Open in browser
+http://localhost:3000
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+How It Works
 
-**Use GitHub Codespaces**
+User enters a course topic in the search bar
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The system retrieves relevant courses from local data
 
-## What technologies are used for this project?
+Courses from 10 platforms are displayed
 
-This project is built with:
+User selects courses and compares them
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+User can explore details and redirect to original platform
 
-## How can I deploy this project?
+AI mode helps with learning queries and quizzes
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Notes and career guidance features enhance learning experience
 
-## Can I connect a custom domain to my Lovable project?
+Advantages
 
-Yes, you can!
+Saves time by avoiding multiple platform searches
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Provides structured comparison
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Works offline (no external APIs required)
+
+Includes learning support tools (AI, quizzes, notes)
