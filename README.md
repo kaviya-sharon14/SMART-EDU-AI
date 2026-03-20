@@ -18,29 +18,29 @@ Smart Edu AI provides a centralized solution to compare and analyze courses effi
 
 ### Project Screenshots
 
-**Home Page**
+Home Page
 ![Home Page](Home%20page.png)
 
-**AI Mode**
-![AI Mode](AI%20mode.png)
-
-**Comparison**
-![Comparison](Comparison.png)
-
-**Course Searching**
+Course Searching
 ![Course Searching](Course%20searching.png)
 
-**Destiny Finder**
+AI Mode
+![AI Mode](AI%20mode.png)
+
+Comparison
+![Comparison](Comparison.png)
+
+Destiny Finder
 ![Destiny Finder](Destiny%20Finder.png)
 
-**Full Overview**
-![Full Overview](Full%20overview.png)
-
-**Notes Making**
+Notes Making
 ![Notes Making](Notes%20making.png)
 
-**Quiz Page**
+Quiz Page
 ![Quiz Page](Quiz%20page.png)
+
+Full Overview
+![Full Overview](Full%20overview.png)
 
 Objectives
 
