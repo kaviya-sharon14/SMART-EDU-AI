@@ -1,5 +1,6 @@
 
 Project Overview
+
 Smart Edu AI is a web-based application designed to help users identify and choose the best e-learning courses across multiple platforms. Many learners face difficulty in deciding which platform offers the most suitable course for a specific topic. This system solves that problem by bringing together course information from platforms like Coursera, Udemy, and Simplilearn into a single interface for easy comparison and decision-making.
 
 Problem Statement
