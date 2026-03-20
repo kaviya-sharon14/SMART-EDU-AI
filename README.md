@@ -24,11 +24,11 @@ Home Page
 Course Searching
 ![Course Searching](Course%20searching.png)
 
-AI Mode
-![AI Mode](AI%20mode.png)
-
 Comparison
 ![Comparison](Comparison.png)
+
+AI Mode
+![AI Mode](AI%20mode.png)
 
 Destiny Finder
 ![Destiny Finder](Destiny%20Finder.png)
